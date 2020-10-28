@@ -17,7 +17,7 @@ import com.sohu.tv.mq.cloud.bo.TopicTrafficStat;
 import com.sohu.tv.mq.cloud.bo.TopicTrafficWarnConfig;
 import com.sohu.tv.mq.cloud.bo.User;
 import com.sohu.tv.mq.cloud.util.Jointer;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
