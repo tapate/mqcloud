@@ -296,7 +296,7 @@ public class TopicTrafficStatService {
         content.append("</table>");
         // 根据配置发送给不同的报警接收人
         String email = getAlarmReceiverEmails(config.getAlarmReceiver(), topic.getId());
-        alertService.sendWarnMail(email, "topic流量预警", content.toString());
+        alertService.sendWarnMail(email, "topic流量", content.toString());
     }
 
     /**
